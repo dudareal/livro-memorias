@@ -112,6 +112,19 @@ function abrirCapitulo(index){
   const texto = node.querySelector('.capitulo-texto');
   texto.innerHTML = (cap.texto || '').split('\n').map(p => `<p>${p}</p>`).join('');
 
+  const musica = document.getElementById("musica-fundo");
+const botao = document.getElementById("toggle-musica");
+
+botao.addEventListener("click", () => {
+  if (musica.paused) {
+    musica.play();
+    botao.textContent = "⏸️ Pausar Música";
+  } else {
+    musica.pause();
+    botao.textContent = "🎵 Música";
+  }
+});
+
   const mapaLink = node.querySelector('#mapaLink');
   if(cap.mapa){
     mapaLink.href = cap.mapa;
@@ -189,3 +202,4 @@ document.addEventListener('DOMContentLoaded', () => {
   initEventos();
   carregarConteudo();
 });
+

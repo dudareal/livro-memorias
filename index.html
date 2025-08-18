@@ -11,8 +11,18 @@
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <audio id="musica-fundo" autoplay loop>
+  <source src="assets/Justin Timberlake  Mirrors Official Video.mp3" type="audio/mpeg">
+  Seu navegador não suporta áudio.
+</audio>
 
   <header class="topbar" role="banner">
+    <button id="toggle-musica" class="icon-btn">🎵 Música</button>
+
+<audio id="musica-fundo" loop>
+  <source src="assets/Justin Timberlake  Mirrors Official Video.mp3" type="audio/mpeg">
+</audio>
+
     <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="sidebar">
       ☰
     </button>
@@ -50,8 +60,8 @@
 
     <main id="conteudo" class="conteudo" tabindex="-1">
       <section class="capa" aria-label="Capa do livro">
-        <h2>Olá, meu amor!</h2>
-        <p>Preparei este site para guardar cada momento especial nosso. Role para explorar ou escolha um capítulo no menu.</p>
+        <h2>oi, meu amor!</h2>
+        <p>fiz este site para guardar cada momento especial nosso e relatar o motivo por trás de cada foto.</p>
         <button id="começarBtn" class="cta">Começar</button>
       </section>
 
@@ -63,16 +73,6 @@
       <section id="capituloView" class="capitulo" hidden aria-live="polite"></section>
 
       <section id="sobre" class="sobre">
-        <h3>Como personalizar</h3>
-        <ol>
-          <li>Abra o arquivo <code>content.json</code> e edite os capítulos, fotos e textos (tudo em português e super simples!).</li>
-          <li>Troque as imagens em <code>/assets</code> (mantenha os mesmos nomes ou atualize os caminhos no JSON).</li>
-          <li>Abra o arquivo <code>style.css</code> para mudar cores e fontes.</li>
-        </ol>
-        <p>Dica: você pode imprimir/gerar um PDF clicando no ícone 🖨️.</p>
-      </section>
-    </main>
-  </div>
 
   <template id="tplCapituloItem">
     <li>
@@ -106,7 +106,7 @@
       <div class="capitulo-texto"></div>
 
       <aside class="capitulo-extra">
-        <a class="btn" target="_blank" rel="noopener" id="mapaLink">Ver no mapa</a>
+        <a class="btn" target="_blank" rel="noopener" id="mapaLink">EU TE AMOOOOOOOO</a>
         <audio id="audioTrilha" controls aria-label="Trilha sonora da memória"></audio>
       </aside>
     </article>

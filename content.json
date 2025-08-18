@@ -1,24 +1,24 @@
 {
   "capitulos": [
     {
-      "titulo": "Sobre nós",
+      "titulo": "eu feat. você",
       "emoji": "✨",
       "data": "16.04.2023",
-      "resumo": "Não cabe taaanto amor em uma só foto.",
-      "texto": "Te amando desde 2023, e com nenhuma pretensão de parar de te amar!Amo todos momentos que já tivemos e fico relembrando cada um deles a todo momento.",
+      "resumo": "não cabe taaanto amor em uma só foto.",
+      "texto": "te amando desde 2023, e com nenhuma pretensão de parar de te amar!Amo todos momentos que já tivemos e fico relembrando cada um deles a todo momento.",
       "imagens": [
         {
           "src": "assets/collage.jpeg",
-          "alt": "Eu te amo!"
+          "alt": "eu te amo mil limoes"
         }
       ]
     },
     {
-      "titulo": "A melhor paisagem!",
+      "titulo": "paisagem mais linda do mundooo",
       "emoji": "🌅",
       "data": "12.04.2025",
-      "resumo": "Pôr do sol e você.",
-      "texto": "Essa é uma das minhas fotos preferida! Lembro até hoje que comentei com você sobre como a paisagem estava linda, e quando você virou para olhar, um sentimento inexplicável me invadiu.Eu precisava registrar aquele momento, e assim foi feito. A melhor paisagem que já vi, e a melhor companhia que poderia ter.",
+      "resumo": "pôr do sol e você.",
+      "texto": "essa é uma das minhas fotos preferida! lembro até hoje que comentei com você sobre como a paisagem estava linda, e quando você virou para olhar, um sentimento inexplicável me invadiu.eu precisava registrar aquele momento, e assim foi feito. a melhor paisagem que já vi, e a melhor companhia que poderia ter.",
       "imagens": [
         {
           "src": "assets/paisagem i ele.jpeg",
@@ -28,11 +28,11 @@
       ]
     },
     {
-      "titulo": "Celebração!",
+      "titulo": "celebraçãoo",
       "emoji": "🎉",
       "data": "17.03.2025",
-      "resumo": "Muuitaa felicidade!",
-      "texto": "Nossa primeira comemoração juntos! Fiquei tão feliz de celebrar esse momento com você, e mais ainda de te ver conquistar algo tão grandioso. Eu tenho muito orgulho de você, e tenho certeza que você não tem nem ideia do quanto.",
+      "resumo": "muitoo orgulho de você",
+      "texto": "nossa primeira comemoração juntos! fiquei tão feliz de celebrar esse momento com você, e mais ainda de te ver conquistar algo tão grandioso. eu tenho muito orgulho de você, e tenho certeza que você não tem nem ideia do quanto.",
       "imagens": [
         {
           "src": "assets/nois rico.jpeg",
@@ -42,30 +42,86 @@
       ]
     },
       {
-      "titulo": "New year!",
+      "titulo": "ano novoo",
       "emoji": "🎆",
       "data": "31.12.2024",
-      "resumo": "Novo ano, vida nova e o mesmo amor de anos..",
-      "texto": "Nosso primeiro ano novo juntos! Não consigo descrever o quanto fiquei feliz de passar esse momento com você e sua família, e pra deixar tudo mais mágico, ficamos juntinhos depoiss!",
+      "resumo": "novo ano, vida nova e o mesmo amor pra sempree",
+      "texto": "nosso primeiro ano novo juntos! Não consigo descrever o quanto fiquei feliz de passar esse momento com você e sua família, e pra deixar tudo mais mágico, ficamos juntinhos depoiss",
       "imagens": [
         {
           "src": "assets/new year.jpeg",
           "alt": "nós lindos.",
-          "legenda": "ao mesmo tempo que estávamos comemorando o ano novo, também comemoramos 1 ano e 1 mês juntos!"
+          "legenda": "ao mesmo tempo que estávamos comemorando o ano novo, também comemoramos 1 ano e 1 mês juntooss"
         }
       ]
     },
     {
-      "titulo": "Jogo!",
+      "titulo": "FIFA",
       "emoji": "⚽",
       "data": "03.08.2025",
-      "resumo": "Muuitaa felicidade!",
-      "texto": "Nesse dia passei muuito tempo com você, foram dois dias incríveis. Amei cada momento ao seu lado, e como amo te admirar, tive que registrar mais uma vez sua beleza.",
+      "resumo": "eu bobinha te admirando",
+      "texto": "nesse dia passei muuito tempo com você, foram dois dias incríveis. Amei cada momento ao seu lado, e como amo te admirar, tive que registrar mais uma vez sua beleza.",
       "imagens": [
         {
           "src": "assets/jogando fifa.jpeg",
           "alt": "te admirando.",
-          "legenda": "você lindo jogando fifa, e eu admirando sua beleza."
+          "legenda": "você lindo maravilhoso e cheiroso jogando fifa."
+        }
+      ]
+    },
+    {
+      "titulo": "skin caree",
+      "emoji": "💝",
+      "data": "03.01.2025",
+      "resumo": "eu cuidando di voce",
+      "texto": "eu ameeeeiiii esse diaaaaaa, cuidei do seu rostinho, passamos máscaras no rosto, uma coisinha bem fofa. amo muito essa foto e esse momento.",
+      "imagens": [
+        {
+          "src": "assets/skin care.jpeg",
+          "alt": "cuidando um do outro",
+          "legenda": "você lindo lindo lindo com essa mascara e a faixinha fofa."
+        }
+      ]
+    },
+    {
+      "titulo": "meu aniversáriooo",
+      "emoji": "🎂",
+      "data": "25.07.2025",
+      "resumo": "eu bem princesinha com um príncipe do meu lado",
+      "texto": "amor, acho que nesse dia em específico, eu fiquei muuuito feliz com você, e me senti muito amada. Você literalmente deu um jeito de ir pro meu aniversário, só pra poder passar um tempinho comigo.",
+      "imagens": [
+        {
+          "src": "assets/meu aniversario.jpeg",
+          "alt": "eu me sentindo a princesa mais feliz do mundo",
+          "legenda": "amei muit"
+        }
+      ]
+    },
+    {
+      "titulo": "lanchinhoo com sua família",
+      "emoji": "🌭",
+      "data": "05.04.2025",
+      "resumo": "adivinha? eu te admirando de novo, rs",
+      "texto": "amor, você é MUITO lindo, mas nesse dia, você estava muito mais LINDO! a gente tava esperando o hot dog ficar pronto, e você sentou na minha frente. não me contive e fui OBRIGADA a tirar essa foto.",
+      "imagens": [
+        {
+          "src": "assets/ele noia.jpeg",
+          "alt": "todo lindo gatinho p mim",
+          "legenda": "meu amor gatinhooo"
+        }
+      ]
+    },
+    {
+      "titulo": "capítulo final",
+      "emoji": "📚",
+      "data": "24.12.2024",
+      "resumo": "último capítulo, mas não o último da nossa história",
+      "texto": "amor, por meio desse site simples, eu quis te mostrar o tamanho do meu amor por você. cada momento que temos, procuro sempre registrar e guardar, e quando não consigo, mantenho sempre vivo em minha mente. obrigada por fazer parte da minha vida e por estar sempre comigo. essa foto em específico, mostra como sou feliz com você, e vejo isso MUITO evidente. esses dias comentei que te li em livros e filmes, quis dizer com isso que suas atitudes são tão puras, lindas, meigas e cavalheiras, que não parece real. eu te amo pra sempre, e quero que saiba que sempre estarei aqui pra você, sempre mesmo.",
+      "imagens": [
+        {
+          "src": "assets/natal.webp",
+          "alt": "nosso amor",
+          "legenda": "eu te amo. pra sempre."
         }
       ]
     }
