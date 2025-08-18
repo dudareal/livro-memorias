@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Our Book of Memory</title>
+  <meta name="description" content="Um livro de memórias para guardar os nossos melhores momentos, e assim você não esquecer o quanto eu te amo." />
+  <link rel="preload" href="style.css" as="style" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/heart.svg" type="image/svg+xml" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topbar" role="banner">
+    <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="sidebar">
+      ☰
+    </button>
+    <h1 aria-label="Nosso Livro de Memórias">
+      <span class="logo">💞</span> Duda & Vitor
+    </h1>
+    <div class="top-actions">
+      <button id="temaToggle" class="icon-btn" aria-label="Alternar tema claro/escuro">🌓</button>
+      <button id="shuffleBtn" class="icon-btn" aria-label="Surpreenda-me com uma memória aleatória">🎲</button>
+      <button id="printBtn" class="icon-btn" aria-label="Imprimir/Salvar em PDF">🖨️</button>
+    </div>
+  </header>
+
+  <div class="app">
+    <nav id="sidebar" class="sidebar" aria-label="Capítulos do livro">
+      <div class="sidebar-inner">
+        <div class="perfil">
+          <img src="assets/nois fofo.jpeg" alt="Foto de capa do casal" class="perfil-foto" />
+          <div class="perfil-textos">
+            <strong>duda + vitor </strong>
+            <small>desde 2023✨</small>
+          </div>
+        </div>
+
+        <label for="busca" class="sr-only">Buscar memórias</label>
+        <input id="busca" class="busca" type="search" placeholder="Buscar memórias..." autocomplete="off" />
+
+        <ul id="capitulos" class="capitulos" role="list"></ul>
+
+        <footer class="side-footer">
+          <small>Feito com ♥ para você.</small>
+        </footer>
+      </div>
+    </nav>
+
+    <main id="conteudo" class="conteudo" tabindex="-1">
+      <section class="capa" aria-label="Capa do livro">
+        <h2>Olá, meu amor!</h2>
+        <p>Preparei este site para guardar cada momento especial nosso. Role para explorar ou escolha um capítulo no menu.</p>
+        <button id="começarBtn" class="cta">Começar</button>
+      </section>
+
+      <section id="timeline" class="timeline" aria-label="Linha do tempo">
+        <h3>Linha do tempo</h3>
+        <ol id="listaTimeline" class="lista-timeline" role="list"></ol>
+      </section>
+
+      <section id="capituloView" class="capitulo" hidden aria-live="polite"></section>
+
+      <section id="sobre" class="sobre">
+        <h3>Como personalizar</h3>
+        <ol>
+          <li>Abra o arquivo <code>content.json</code> e edite os capítulos, fotos e textos (tudo em português e super simples!).</li>
+          <li>Troque as imagens em <code>/assets</code> (mantenha os mesmos nomes ou atualize os caminhos no JSON).</li>
+          <li>Abra o arquivo <code>style.css</code> para mudar cores e fontes.</li>
+        </ol>
+        <p>Dica: você pode imprimir/gerar um PDF clicando no ícone 🖨️.</p>
+      </section>
+    </main>
+  </div>
+
+  <template id="tplCapituloItem">
+    <li>
+      <button class="capitulo-link"></button>
+    </li>
+  </template>
+
+  <template id="tplTimelineItem">
+    <li class="timeline-item">
+      <div class="dot" aria-hidden="true"></div>
+      <div class="card">
+        <time class="data"></time>
+        <h4 class="titulo"></h4>
+        <p class="resumo"></p>
+      </div>
+    </li>
+  </template>
+
+  <template id="tplCapituloView">
+    <article>
+      <header class="capitulo-header">
+        <time class="capitulo-data"></time>
+        <h2 class="capitulo-titulo"></h2>
+        <p class="capitulo-subtitulo"></p>
+      </header>
+
+      <figure class="galeria">
+        <!-- imagens inseridas via JS -->
+      </figure>
+
+      <div class="capitulo-texto"></div>
+
+      <aside class="capitulo-extra">
+        <a class="btn" target="_blank" rel="noopener" id="mapaLink">Ver no mapa</a>
+        <audio id="audioTrilha" controls aria-label="Trilha sonora da memória"></audio>
+      </aside>
+    </article>
+  </template>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
